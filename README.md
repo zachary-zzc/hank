@@ -33,5 +33,7 @@ k-mer frequencies can be fast counted by jellyfish (http://www.cbcb.umd.edu/soft
 
 ``
 jellyfish count -c ct_size -o output.db -m kmer_size -t threads -s hash_size --both-strands fastq_files
+``
+``
 jellyfish dump -c output.db > output.cts
 ``
